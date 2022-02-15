@@ -1,0 +1,39 @@
+[package]
+name = "spirograph"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dependencies.yew]
+version = "0.19"
+
+[dependencies.web-sys]
+version = "0.3"
+features = ["HtmlCanvasElement", "CanvasRenderingContext2d"]
+
+[dependencies.serde]
+version = "1.0"
+
+[dependencies.wasm-bindgen]
+version = "0.2"
+features = ["serde-serialize"]
+
+[dependencies.gloo-console]
+version = "0.2"
+
+[dependencies.gloo-events]
+version = "0.1"
+
+[dependencies.gloo-utils]
+version = "0.1"
+
+[dependencies.gloo-timers]
+version = "0.2"
+
+[dependencies.material-yew]
+version = "0.1"
+git = "https://github.com/hamza1311/material-yew"
+features = ["slider", "button"]
